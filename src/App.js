@@ -7,7 +7,6 @@ import bakery from './images/bakery.png';
 import panda from './images/panda.png';
 import github from './images/github.png';
 import linkedin from './images/linkedin.png';
-import { Link } from 'react-router-dom';
 
 const HoverButton = () => {
   const [hover, setHover] = useState(false);
