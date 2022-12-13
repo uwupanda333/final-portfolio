@@ -158,12 +158,12 @@ function App() {
 
   return (
     <div>
-       <div id="navbar">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="about">About</a></li>
-        </ul>
-      </div>
+//        <div id="navbar">
+//         <ul>
+//           <li><a href="/">Home</a></li>
+//           <li><a href="about">About</a></li>
+//         </ul>
+//       </div>
       <h1 style={{ textAlign: 'center' }}>
         Hi! Welcome to the portfolio of uwupanda333
       </h1>
