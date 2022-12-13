@@ -10,7 +10,7 @@
 }
 
 .pretty-button {
-  background-color: #ADD8E6;
+  background-color: #338BA8;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -24,7 +24,7 @@
 }
 
 .pretty-buttonn {
-  background-color: #87CEEB;
+  background-color: #658F9C;
   border: none;
   color: black;
   padding: 15px 32px;
@@ -40,4 +40,49 @@
 ul {
   text-align: center;
   list-style-position: inside;
+}
+
+.table-of-contents{
+  background-color: white;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.link {
+  color: #338BA8; /* default color */
+}
+
+.link:hover {
+  color: #D4B1A4; /* color when hovering */
+}
+
+#navbar {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  transform: scale(1.5) translateX(20px);
+}
+
+#navbar a:hover {
+  color: gray;
+  font-weight: semibold;
 }
